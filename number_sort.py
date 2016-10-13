@@ -42,3 +42,10 @@ def run_tests():
 # Edit this code
 def compare(a, b):
 
+    if a > b:
+        print(a)
+    elif a < b:
+        print(b)
+    elif a == b:
+        print(a)
+
