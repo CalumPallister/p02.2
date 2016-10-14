@@ -42,7 +42,13 @@ def run_tests():
 # Edit this code
 def compare(a, b):
 
-    if a > b:
+    if len(a) > len(b):
+        print(a)
+
+    elif len(b) > len(a):
+        print(b)
+    
+    elif a > b:
         print(a)
     elif a < b:
         print(b)
