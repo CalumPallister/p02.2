@@ -38,9 +38,9 @@ def run_tests():
 # Edit this code
 def sub_search(word, s):
 
-    if word in s:
+    if word.lower() in s.lower():
         print("Found in original")
-    elif word in s[0::2]:
+    elif word.lower() in s.lower()[0::2]:
         print("Found in substring")
     else:
         print("Not found")
